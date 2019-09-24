@@ -1,6 +1,7 @@
 " Sample .vimrc file by Amit Upadhyay
 
 
+
 " Automatic reloading of .vimrc
   autocmd! bufwritepost .vimrc source %
 
@@ -17,6 +18,9 @@
   set mouse=a  " on OSX press ALT and click
   set bs=2     " make backspace behave like normal again
 
+" At the beginning of a line, using h or left arrow will make you go to
+" previous line
+  set whichwrap+=h,l,<,>,[,]
 
 " Rebind <Leader> key
 " I like to have it here becuase it is easier to reach than the default and
@@ -127,13 +131,11 @@
   set nowritebackup
   set noswapfile
 
-
 " Setup Pathogen to manage your plugins
 " mkdir -p ~/.vim/autoload ~/.vim/bundle
 " curl -so ~/.vim/autoload/pathogen.vim https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 " Now you can install any plugin into a .vim/bundle/plugin-name/ folder
   call pathogen#infect()
-
 
 " ============================================================================
 " Python IDE Setup

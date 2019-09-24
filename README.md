@@ -1,10 +1,14 @@
-# .vimrc-file
-.vimrc file
+# .vimrc
 
-The best vimrc file you can get is here - https://github.com/spf13/spf13-vim
+## UPDATE in recent commit:
+- Adding feature for moving to previous line and next line using `h` and `l` respectively.
+- Adding `.vim` dir (just clone it, if you feel lazy to setup plugins, bundles, etc)
 
-To sort out some issues that you may face as mentioned [here](http://pycodestyle.pycqa.org/en/latest/intro.html#error-codes) 
+## One good vim distributions: [spf13 vim](https://github.com/spf13/spf13-vim)
 
-use [pycodestyle](http://pycodestyle.pycqa.org/en/latest/intro.html#installation).
+## helpful links:
+- To sort out some issues that you may face as mentioned [here](http://pycodestyle.pycqa.org/en/latest/intro.html#error-codes) 
 
-See configuration example of `.pycodestyle` [here](http://pycodestyle.pycqa.org/en/latest/intro.html#configuration)
+- use [pycodestyle](http://pycodestyle.pycqa.org/en/latest/intro.html#installation).
+
+- See configuration example of `.pycodestyle` [here](http://pycodestyle.pycqa.org/en/latest/intro.html#configuration)
